@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -54,6 +54,18 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+
+figure {
+    color: #333333;
+}
+
+blockquote {
+    margin: 50px 0 20px;
+}
+
+footer ul, li {
+    list-style-type: none;
 }
 
 .bg-center,
@@ -683,7 +695,8 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 20px;
+    padding-bottom: 30px;
 }
 
 .tight-width-whitespace {
@@ -707,7 +720,8 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 30px auto auto auto;
+    padding: 0;
 }
 
 h2 {
